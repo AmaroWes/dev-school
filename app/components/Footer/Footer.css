@@ -1,0 +1,15 @@
+.container__footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    border-top: solid 1px;
+}
+
+.container__footer li {
+    text-align: center;
+}
+
+.container__footer a {
+    text-decoration: underline;
+}
