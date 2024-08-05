@@ -67,7 +67,7 @@ const JsPage = () => {
                         A JavaScript identifier must start with a letter, underscore (_), or
                         dollar sign ($); subsequent characters can also be digits (0-9).
                         Because JavaScript is case sensitive, letters include the characters
-                        "A" through "Z" (uppercase) and the characters "a" through "z"
+                        &quot;A&quot; through &quot;Z&quot; (uppercase) and the characters &quot;a&quot; through &quot;z&quot;
                         (lowercase).
                     </p>
                     <p>
@@ -94,7 +94,7 @@ const JsPage = () => {
                         <code>
                             x = 42;
                         </code>
-                        This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.
+                        This always declares a global variable. It generates a strict JavaScript warning. You shouldnt use this variant.
                     </p>
                     <p>
                         With the keyword let. For exemple:
@@ -256,7 +256,7 @@ const JsPage = () => {
                         In the case of multiple conditions only the first logical condition
                         which evaluates to true will be executed. To execute multiple
                         statements, group them within a block statement {`({ ... })`} . In
-                        general, it's good practice to always use block statements, especially
+                        general, it is good practice to always use block statements, especially
                         when nesting if statements:
                     </p>
                     <code>
