@@ -102,7 +102,7 @@ const CssPage = () => {
                             Background: Sets the background color or image.
                             <code>
                                 {`background-color: lightblue;`}
-                                {`background-image: url('image.jpg');`}
+                                {`background-image: url(&apos;image.jpg&apos;);`}
                             </code>
                         </li>
                         <li>
