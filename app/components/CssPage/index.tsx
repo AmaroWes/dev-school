@@ -15,7 +15,7 @@ const CssPage = () => {
             <section id='structure'>
                 <h2>Basic Structure</h2>
                 <article>
-                    <p>HTML and CSS Files: Typically, you'll have an HTML file and a separate CSS file. For example:</p>
+                    <p>HTML and CSS Files: Typically, you will have an HTML file and a separate CSS file. For example:</p>
                     <ul>
                         <li>index.html</li>
                         <li>styles.css</li>
