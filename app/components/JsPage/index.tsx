@@ -44,11 +44,11 @@ const JsPage = () => {
                 <article>
                     <p>
                         To get started with writing JavaScript, open the Scratchpad and write
-                        your first "Hello world" JavaScript code:
+                        your first &quot;Hello world&quot; JavaScript code:
                     </p>
                     <code>
-                        <p>{`function greetMe(yourName) {alert("Hello " + yourName); }`}</p>
-                        <p>greetMe("World");</p>
+                        <p>{`function greetMe(yourName) {alert(&quot;Hello &quot; + yourName); }`}</p>
+                        <p>greetMe(&quot;World&quot;);</p>
                     </code>
                     <p>
                         Select the code in the pad and hit Ctrl+R to watch it unfold in your
@@ -187,7 +187,7 @@ const JsPage = () => {
                         statement is executed without problems.
                     </p>
                     <code>
-                        <p>{`const MY_OBJ = {"key": "value"}; MY_OBJ.key = "otherValue";`}</p>
+                        <p>{`const MY_OBJ = {&quot;key&quot;: &quot;value&quot;}; MY_OBJ.key = &quot;otherValue&quot;;`}</p>
                     </code>
                 </article>
             </section>
@@ -209,7 +209,7 @@ const JsPage = () => {
                                     undefined. A top-level property whose value is undefined.
                                 </li>
                                 <li>Number. 42 or 3.14159.</li>
-                                <li>String. "Howdy"</li>
+                                <li>String. &quot;Howdy&quot;</li>
                                 <li>
                                     Symbol (new in ECMAScript 2015). A data type whose instances
                                     are unique and immutable.
