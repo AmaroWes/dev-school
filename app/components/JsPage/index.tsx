@@ -47,7 +47,7 @@ const JsPage = () => {
                         your first &quot;Hello world&quot; JavaScript code:
                     </p>
                     <code>
-                        <p>{`function greetMe(yourName) {alert(&quot;Hello &quot; + yourName); }`}</p>
+                        <p>{`function greetMe(yourName) {alert("Hello " + yourName); }`}</p>
                         <p>greetMe(&quot;World&quot;);</p>
                     </code>
                     <p>
@@ -187,7 +187,7 @@ const JsPage = () => {
                         statement is executed without problems.
                     </p>
                     <code>
-                        <p>{`const MY_OBJ = {&quot;key&quot;: &quot;value&quot;}; MY_OBJ.key = &quot;otherValue&quot;;`}</p>
+                        <p>{`const MY_OBJ = {"key": "value"}; MY_OBJ.key = "otherValue";`}</p>
                     </code>
                 </article>
             </section>
