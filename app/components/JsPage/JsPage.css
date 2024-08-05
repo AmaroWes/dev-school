@@ -1,4 +1,4 @@
-.container__html {
+.container__js {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,16 +7,16 @@
     padding-top: 5rem;
 }
 
-.container__html div {
+.container__js div {
     align-self: start;
 }
 
-.container__html > div {
+.container__js > div {
     position: fixed;
     z-index: 2;
 }
 
-.container__html section {
+.container__js section {
     max-width: 400px;
     min-width: 300px;
     width: 100%;
@@ -24,7 +24,7 @@
     padding: .5rem;
 }
 
-.container__html code {
+.container__js code {
     width: 100%;
     padding: .5rem;
     text-align: left;
@@ -33,20 +33,20 @@
     border-radius: .5rem;
 }
 
-.container__html span {
+.container__js span {
     font-weight: 600;
 }
 
-.container__html h2 {
+.container__js h2 {
     font-size: 1.3rem;
 }
 
-.container__html p {
+.container__js p {
     font-size: 1rem;
 }
 
 @media only screen and (min-width: 630px) {
-    .container__html section {
+    .container__js section {
         max-width: 800px;
     }
 }

@@ -13,7 +13,7 @@
   padding: 0;
 }
 
-body {
+body, .container__header {
   background-color: var(--light-gray-one)
 }
 
@@ -28,7 +28,10 @@ a {
   color: black;
 }
 
-.container__hero_text a {
+.container__hero_text a,
+.container__html code, 
+.container__js code,
+.container__css code {
   background-color: var(--light-gray-two);
 }
 
